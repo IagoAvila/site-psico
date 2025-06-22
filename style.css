@@ -72,17 +72,17 @@ section#Home {
 }
 /*home-text*/
 p.slogan {
-    font-size: 14px;
-    margin: 46px 1px;
-    padding: 17px;
-    border-radius: 1px;
-    color: #fff;
-    text-align: center;
-    width: 99%;
-    top: -10rem;
-    left: 0px;
-    background-color: #053056;
-    position: relative;
+        font-size: 14px;
+        margin: 46px 1px;
+        padding: 17px;
+        border-radius: 1px;
+        color: #000000;
+        text-align: center;
+        width: 99%;
+        top: -10rem;
+        left: 0px;
+        position: relative;
+        font-weight: bolder;
 }
 p.descricao {
     font-size: 11px;
