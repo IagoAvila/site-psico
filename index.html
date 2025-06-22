@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
+     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
+    <header  data-aos="fade-down">
             <img src="assets/logo-psico.png" alt="logo" width="150">
         <nav>
             <ul class="flex h-full w-full items-center justify-center gap-6">
@@ -18,16 +19,56 @@
             </ul>
         </nav>
     </header>
-    <section id="Home">
+    <section id="Home" data-aos="fade-down">
         <p class="slogan">ACOLHIMENTO EMOCIONAL PARA VOCÊ VIVER COM MAIS LEVEZA!</p>
             <p class="descricao">
                 Psicoterapia para adultos, jovens e casais | CRP 00/00000
             </p>
                         <img src="assets/homepage.jpg" alt="home" width="150">
 
-            <div class="home-button">
+            <div class="home-button"  data-aos="fade-down">
                 <a href="#">
                 <p>AGENDAR CONSULTA</p>
             </a>
+            </div>
     </section>
+    <section id="sobre">
+        <h2>“Acolher, escutar e cuidar: esse é meu papel.”</h2>
+        <img src="assets/img-psico.jpg" alt="psico" width="150">
+        <p class="subtitle"> Dra. Camila Ribeiro
+            CRP 06/123456 
+Psicóloga | Especialista em Terapia Cognitivo-Comportamental
+</p>
+<p class="about">
+    Sou formada em Psicologia pela Universidade de São Paulo (USP) e pós-graduada em Terapia Cognitivo-Comportamental. Ao longo dos últimos anos, venho ajudando pessoas a enfrentarem seus desafios emocionais com acolhimento, técnica e empatia.
+Acredito que todos têm potencial para viver com mais equilíbrio emocional. Meu papel é caminhar ao seu lado nesse processo de autoconhecimento e transformação.
+Atendo adultos e jovens que buscam compreender suas emoções, melhorar seus relacionamentos e desenvolver estratégias para lidar com ansiedade, estresse, baixa autoestima e outras questões da vida cotidiana.
+
+</p>
+    </section>
+
+<section id="especialidades">
+ <h2>ESPECIALIDADES:</h2>
+<ul class="sub">
+  <li data-aos="fade-up" data-aos-delay="100">Ansiedade e Depressão</li>
+  <li data-aos="fade-up" data-aos-delay="200">Relacionamentos</li>
+  <li data-aos="fade-up" data-aos-delay="300">Estresse e Burnout</li>
+  <li data-aos="fade-up" data-aos-delay="400">Autoconhecimento e Desenvolvimento Pessoal</li>
+</ul>
+
+<img src="assets/fundo.png" alt="fundo" width="150">
+</section>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
