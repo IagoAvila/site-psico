@@ -134,7 +134,12 @@ nav ul {
         border-radius: 0px;
         width: 26%;
     }
-section#sobre {
+    .sobre-container {
+    display: flex;
+    max-width: 1500px;
+    position: relative;
+}
+    section#sobre {
         position: absolute;
         top: 90rem;
         height: 42rem;
@@ -157,25 +162,24 @@ section#sobre {
     position: relative;
 }
 
-p.subtitle {
+    p.subtitle {
         color: rgb(5, 48, 86);
         font-weight: 800;
         font-size: 15px;
         text-align: start;
         position: relative;
-        top: -43rem;
-        right: -34%;
+        right: -6%;
     }
-p.about {
+    p.about {
         text-align: start;
         font-weight: 600;
         font-size: 19px;
         border-radius: 23px;
         color: #000000;
         position: relative;
-        top: -38rem;
-        width: 41%;
-        right: -34%;
+        top: 6rem;
+        width: 86%;
+        right: -7%;
         line-height: 26px;
     }
     section#especialidades {
@@ -286,14 +290,14 @@ nav ul a {
         height: 76%;
     }
 /*home-text*/
- p.slogan {
+    p.slogan {
         font-size: 10px;
         padding: 7px;
         border-radius: 1px;
         color: #ffffff;
         text-align: center;
         width: 100%;
-        top: 6rem;
+        top: -22rem;
         position: relative;
         font-weight: bolder;
         z-index: 10;
@@ -340,7 +344,7 @@ p.descricao {
     }
     section#sobre {
         position: absolute;
-        top: 60rem;
+        top: 45rem;
         height: 42rem;
         display: block;
     }
@@ -353,27 +357,33 @@ p.descricao {
     margin-bottom: 40px;
 }
 
-#sobre > img {
-        position: relative;
-        left: 25px;
-        width: 87%;
-        border-radius: 13px;
-        margin-bottom: 13px;
- }
-    p.subtitle {
-        text-align: center;
+
+#sobre > div > img {
+    width: 50%;
+    border-radius: 5px;
+    left: 1rem;
+    position: relative;
+}
+p.subtitle {
+        text-align: start;
         color: #053056;
         font-weight: 800;
-        font-size: 11px;
-        margin-bottom: 40px;
-        white-space-collapse: preserve-breaks;
+        font-size: 7px;
+        padding: 47px;
+        top: -3rem;
+        max-width: 1300px;
+        right: 2rem;
+        margin-top: -49px;
+        margin-left: -24px;
     }
-p.about {
-        text-align: justify;
-        padding: 11px;
+    p.about {
+        text-align: start;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 9px;
+        margin-left: 21px;
+        margin-top: -30px;
     }
+
 section#especialidades {
     position: absolute;
     top: 104rem;
