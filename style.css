@@ -307,11 +307,11 @@ p.descricao {
 }
       #Home > img {
         position: relative;
-        top: -19rem;
+        top: -21rem;
         justify-items: center;
         width: 100%;
         filter: brightness(0.6);
-        height: 22rem;
+        height: 25rem;
     }
     #Home > div > a > p {
         color: #fff;
