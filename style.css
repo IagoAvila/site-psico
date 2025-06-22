@@ -149,31 +149,34 @@ section#sobre {
         white-space: nowrap;
         margin-bottom: 40px;
 }
+#sobre > div > img {
+    width: 40%;
+    border-radius: 18px;
+    display: flex;
+    left: 1rem;
+    position: relative;
+}
 
-#sobre > img {
-        position: relative;
-        left: 25px;
-        width: 87%;
-        border-radius: 13px;
-        margin-bottom: 13px;
- }
- p.subtitle {
-        text-align: center;
+p.subtitle {
         color: rgb(5, 48, 86);
         font-weight: 800;
-        font-size: 20px;
-        margin-bottom: 40px;
-        white-space-collapse: preserve-breaks;
+        font-size: 15px;
+        text-align: start;
+        position: relative;
+        top: -43rem;
+        right: -34%;
     }
 p.about {
-        text-align: justify;
-        padding: 40px;
+        text-align: start;
         font-weight: 600;
-        font-size: 20px;
-        background-color: #015a83;
+        font-size: 19px;
         border-radius: 23px;
-        color: #fff;
-        margin: 112px;
+        color: #000000;
+        position: relative;
+        top: -38rem;
+        width: 41%;
+        right: -34%;
+        line-height: 26px;
     }
     section#especialidades {
         position: absolute;

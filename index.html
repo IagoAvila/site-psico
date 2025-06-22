@@ -3,80 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+    <title>Site Psicóloga</title>
 </head>
 <body>
-    <header  <header data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
-            <img src="assets/logo-psico.png" alt="logo" width="150">
+
+    <!-- HEADER -->
+    <header data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+        <img src="assets/logo-psico.png" alt="logo" width="150">
         <nav>
             <ul class="flex h-full w-full items-center justify-center gap-6">
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Abordagens</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Depoimentos</a></li>
-                  <li><a href="#">Contato</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <section id="Home" data-aos="fade-down">
-        <p class="slogan" data-aos="zoom-in" data-aos-delay="200">
-        ACOLHIMENTO EMOCIONAL PARA VOCÊ VIVER COM MAIS LEVEZA! <br> Psicoterapia para adultos, jovens e casais | CRP 00/00000</p>
-        
-        
-                        <img src="assets/homepage.jpg" alt="home" width="150">
 
-            <div class="home-button"  data-aos="fade-down">
-                <a href="#">
-                <p>AGENDAR ATENDIMENTO!</p>
-            </a>
-            </div>
+    <!-- HOME -->
+    <section id="Home" data-aos="fade-down">
+        <img class="background-home" src="assets/homepage.jpg" alt="home">
+
+        <p class="slogan" data-aos="zoom-in" data-aos-delay="200">
+            ACOLHIMENTO EMOCIONAL PARA VOCÊ VIVER COM MAIS LEVEZA! <br> 
+            Psicoterapia para adultos, jovens e casais
+        </p>
+
+        <div class="home-button" data-aos="fade-down">
+            <a href="#"><p>AGENDAR ATENDIMENTO!</p></a>
+        </div>
     </section>
+
+    <!-- SOBRE -->
     <section id="sobre">
         <h2>“Acolher, escutar e cuidar: esse é meu papel.”</h2>
-        <img src="assets/img-psico.jpg" alt="psico" width="150">
-        <p class="subtitle"> Dra. Camila Ribeiro
-            CRP 06/123456 
-Psicóloga | Especialista em Terapia Cognitivo-Comportamental
-</p>
-<p class="about">
-    Sou formada em Psicologia pela Universidade de São Paulo (USP) e pós-graduada em Terapia Cognitivo-Comportamental. Ao longo dos últimos anos, venho ajudando pessoas a enfrentarem seus desafios emocionais com acolhimento, técnica e empatia.
-Acredito que todos têm potencial para viver com mais equilíbrio emocional. Meu papel é caminhar ao seu lado nesse processo de autoconhecimento e transformação.
-Atendo adultos e jovens que buscam compreender suas emoções, melhorar seus relacionamentos e desenvolver estratégias para lidar com ansiedade, estresse, baixa autoestima e outras questões da vida cotidiana.
-
-</p>
+        <div class="sobre-container">
+            <img src="assets/img-psico.jpg" alt="psico">
+            <div class="sobre-texto">
+                <p class="subtitle">Dra. Camila Ribeiro <br> CRP 06/123456 <br> Psicóloga | Especialista em Terapia Cognitivo-Comportamental</p>
+                <p class="about">
+                    Sou formada em Psicologia pela Universidade de São Paulo (USP) e pós-graduada em Terapia Cognitivo-Comportamental. 
+                    Ao longo dos últimos anos, venho ajudando pessoas a enfrentarem seus desafios emocionais com acolhimento, técnica e empatia.
+                    Acredito que todos têm potencial para viver com mais equilíbrio emocional. Meu papel é caminhar ao seu lado nesse processo 
+                    de autoconhecimento e transformação. Atendo adultos e jovens que buscam compreender suas emoções, melhorar seus relacionamentos 
+                    e desenvolver estratégias para lidar com ansiedade, estresse, baixa autoestima e outras questões da vida cotidiana.
+                </p>
+            </div>
+        </div>
     </section>
 
-<section id="especialidades">
- <h2>ESPECIALIDADES:</h2>
-<ul class="sub">
-  <li data-aos="fade-up" data-aos-delay="100">Ansiedade e Depressão</li>
-  <li data-aos="fade-up" data-aos-delay="200">Relacionamentos</li>
-  <li data-aos="fade-up" data-aos-delay="300">Estresse e Burnout</li>
-  <li data-aos="fade-up" data-aos-delay="400">Autoconhecimento e Desenvolvimento Pessoal</li>
-</ul>
+    <!-- ESPECIALIDADES -->
+    <section id="especialidades">
+        <h2>ESPECIALIDADES:</h2>
+        <ul class="sub">
+            <li data-aos="fade-up" data-aos-delay="100">Ansiedade e Depressão</li>
+            <li data-aos="fade-up" data-aos-delay="200">Relacionamentos</li>
+            <li data-aos="fade-up" data-aos-delay="300">Estresse e Burnout</li>
+            <li data-aos="fade-up" data-aos-delay="400">Autoconhecimento e Desenvolvimento Pessoal</li>
+        </ul>
+        <img src="assets/fundo.png" alt="fundo">
+    </section>
 
-<img src="assets/fundo.png" alt="fundo" width="150">
-</section>
-
-
-
-
-
-
-
+    <!-- BOTÃO TOPO -->
+    <button id="btnTop" title="Voltar ao topo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+            <path d="M4.293 12.707a1 1 0 011.414 0L11 7.414V20a1 1 0 102 0V7.414l5.293 5.293a1 1 0 001.414-1.414l-7-7a1 1 0 00-1.414 0l-7 7a1 1 0 010 1.414z"/>
+        </svg>
+    </button>
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-<button id="btnTop" title="Voltar ao topo">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
-    <path d="M4.293 12.707a1 1 0 011.414 0L11 7.414V20a1 1 0 102 0V7.414l5.293 5.293a1 1 0 001.414-1.414l-7-7a1 1 0 00-1.414 0l-7 7a1 1 0 010 1.414z"/>
-  </svg>
-</button>
-
-<script src="script.js"></script>
+    <script>AOS.init();</script>
+    <script src="script.js"></script>
 </body>
 </html>
