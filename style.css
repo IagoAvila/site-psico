@@ -45,16 +45,16 @@ nav {
     left: 22rem;
     top: 3rem;
 }
-nav ul {
+    nav ul {
         display: flex;
         gap: 11px;
         list-style: none;
         text-transform: uppercase;
         font-weight: bold;
         position: absolute;
-        top: -22px;
-        left: -20rem;
-}
+        top: -24px;
+        right: 15px;
+    }
 
 nav ul a {
         font-size: 9px;
@@ -120,11 +120,11 @@ p.descricao {
     width: 48%;
 }
 section#sobre {
-    position: absolute;
-    top: 51rem;
-    height: 42rem;
-    display: block;
-}
+        position: absolute;
+        top: 55rem;
+        height: 42rem;
+        display: block;
+ }
 #sobre > h2 {
     font-size: 13px;
     text-align: center;
@@ -135,17 +135,17 @@ section#sobre {
 }
 
 #sobre > img {
-    position: relative;
-    left: 25px;
-    width: 87%;
-    border-radius: 13px;
-    margin-bottom: 44px;
-}
+        position: relative;
+        left: 25px;
+        width: 87%;
+        border-radius: 13px;
+        margin-bottom: 13px;
+ }
 p.subtitle {
         text-align: center;
         color: #053056;
         font-weight: 800;
-        font-size: 13px;
+        font-size: 11px;
         margin-bottom: 40px;
         white-space-collapse: preserve-breaks;
 }
