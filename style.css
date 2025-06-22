@@ -66,10 +66,11 @@ nav ul a {
 
 
 
-section#Home {
-    position: absolute;
-    top: 20rem;
-}
+    section#Home {
+        position: absolute;
+        top: 20rem;
+        height: 76%;
+    }
 /*home-text*/
 p.slogan {
         font-size: 14px;
@@ -100,31 +101,31 @@ p.descricao {
     border-radius: 13px;
 }
 #Home > div > a > p {
-    color: #fff;
-    background-color: #015a83;
-    font-size: 13px;
-    border-radius: 39px;
-    font-weight: bold;
-    padding: 19px;
-    box-shadow: rgba(0, 0, 0, 0.53) 0px 4px 10px;
+        color: #fff;
+        background-color: #015a83;
+        font-size: 13px;
+        border-radius: 39px;
+        font-weight: bold;
+        padding: 19px;
+        box-shadow: rgba(0, 0, 0, 0.53) 0px 4px 10px;
 }
 #Home > div > a {
     text-decoration: unset;
 }
 .home-button {
-    position: relative;
-    top: -7rem;
-    left: 25%;
-    text-align: center;
-    border-radius: 0px;
-    width: 48%;
-}
-section#sobre {
+        position: relative;
+        top: 0rem;
+        left: 25%;
+        text-align: center;
+        border-radius: 0px;
+        width: 48%;
+    }
+    section#sobre {
         position: absolute;
-        top: 55rem;
+        top: 60rem;
         height: 42rem;
         display: block;
- }
+    }
 #sobre > h2 {
     font-size: 13px;
     text-align: center;
@@ -141,20 +142,20 @@ section#sobre {
         border-radius: 13px;
         margin-bottom: 13px;
  }
-p.subtitle {
+    p.subtitle {
         text-align: center;
         color: #053056;
         font-weight: 800;
         font-size: 11px;
         margin-bottom: 40px;
         white-space-collapse: preserve-breaks;
-}
+    }
 p.about {
-    text-align: justify;
-    padding: 11px;
-    font-weight: 600;
-}
-
+        text-align: justify;
+        padding: 11px;
+        font-weight: 600;
+        font-size: 14px;
+    }
 section#especialidades {
     position: absolute;
     top: 104rem;
