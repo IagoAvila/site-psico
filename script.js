@@ -14,3 +14,20 @@ btnTop.addEventListener("click", function() {
     behavior: "smooth"
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const menuBtn = document.querySelector('.menu-btn');
+  const closeBtn = document.querySelector('.close-btn');
+  const menuList = document.querySelector('.menu-list');
+
+  menuBtn.addEventListener('click', function() {
+    menuList.classList.add('show');
+    closeBtn.classList.add('show');
+  });
+
+  closeBtn.addEventListener('click', function() {
+    menuList.classList.remove('show');
+    closeBtn.classList.remove('show');
+  });
+});
+

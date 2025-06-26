@@ -12,17 +12,20 @@
     <!-- HEADER -->
     <header data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
         <img src="assets/logo-psico.png" alt="logo" width="150">
-        <nav>
-            <ul class="flex h-full w-full items-center justify-center gap-6">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Abordagens</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Depoimentos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+       <nav>
+  <div class="menu-btn">&#9776;</div>
+  <span class="close-btn">&times;</span>
 
+  <ul class="menu-list">
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Abordagens</a></li>
+    <li><a href="#">Serviços</a></li>
+    <li><a href="#">Depoimentos</a></li>
+    <li><a href="#">Contato</a></li>
+  </ul>
+</nav>
+
+    </header>
     <!-- HOME -->
     <section id="Home" data-aos="fade-down">
         <img class="background-home" src="assets/homepage.jpg" alt="home">
@@ -75,7 +78,8 @@
     </button>
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
