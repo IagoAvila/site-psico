@@ -389,14 +389,20 @@ h3:hover{
   margin-bottom: 18px; /* Espaçamento entre os itens */
   font-weight: 600;
 }
+.close-btn {
+        display: none;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #000000;
+        margin-bottom: 1rem;
+    }
 
-
-.close-btn.show {
+    .close-btn.show {
         display: block;
         position: absolute;
         z-index: 20;
         top: -2rem;
-        left: -2rem;
+        left: 22rem;
     }
     .close-btn {
         display: none;
@@ -410,13 +416,13 @@ h3:hover{
   display: block;
 }
 
-.menu-btn {
-  display: block;
-  position: relative;
-  left: -1rem;
-  top: -2rem;
-  font-size: 20px;
-}
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: -2rem;
+        font-size: 23px;
+        margin-left: 22rem;
+    }
 
 .menu-list {
   display: none;
@@ -494,11 +500,12 @@ h3:hover{
         background-color: #ffffff;
     }
 
-nav {
-    position: absolute;
-    left: 22rem;
-    top: 3rem;
-}
+    nav {
+        position: relative;
+        top: 1rem;
+        justify-content: space-between;
+        align-items: center;
+    }
     nav ul {
         display: flex;
         gap: 8px;
@@ -665,8 +672,8 @@ nav ul a {
     line-height: 25px;
 }
 
-      #especialidades ul.sub li .info {
-        margin-top: 0.5rem;
+       #especialidades ul.sub li .info {
+        margin-top: 0.9rem;
         padding: 0.7rem 1rem;
         background: #002841;
         color: #fff;
@@ -701,7 +708,7 @@ nav ul a {
         border-radius: 0px;
         width: 47%;
     }
-    
+
         #abordagens > div > h2 {
         text-align: center;
         color: #002841;
