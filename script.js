@@ -31,14 +31,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
-document.addEventListener('DOMContentLoaded', function() {
-  const especialidadesItems = document.querySelectorAll('#especialidades ul.sub li');
-
-  especialidadesItems.forEach(item => {
-    item.addEventListener('click', function() {
-      this.classList.toggle('active');
-    });
-  });
-});
-
