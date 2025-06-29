@@ -701,12 +701,14 @@ nav ul a {
         border-radius: 0px;
         width: 47%;
     }
-#abordagens > div > h2 {
+    
+        #abordagens > div > h2 {
         text-align: center;
         color: #002841;
         margin-bottom: 43px;
         font-size: 20px;
         margin-top: -37rem;
+        text-transform: uppercase;
     }
     
       section#abordagens {
