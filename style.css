@@ -525,10 +525,17 @@ nav ul a {
     top: -13rem;
     width: 99%;
     opacity: 0.4;
+    display: none;
 }
 #especialidades > ul > li:nth-child(4) {
     line-height: 23px;
 }
 
-
+#especialidades ul.sub li .arrow{
+    transition: transform 0.3s ease;
+    margin-left: 0.5rem;
+}
+#especialidades ul.sub li.active .arrow{
+    transform: rotate(180deg);
+}
 }
