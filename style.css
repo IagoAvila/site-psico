@@ -665,16 +665,17 @@ nav ul a {
     line-height: 25px;
 }
 
-    #especialidades ul.sub li .info {
+      #especialidades ul.sub li .info {
         margin-top: 0.5rem;
         padding: 0.7rem 1rem;
         background: #002841;
         color: #fff;
+        border: 1px solid;
         font-size: 1rem;
         border-radius: 5px;
         line-height: 24px;
         text-align: start;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        box-shadow: rgba(0, 0, 0, 0.53) 0px 4px 10px;
     }
 #sobre > div > div > div > a > p{
          color: #000000;
@@ -708,34 +709,37 @@ nav ul a {
         margin-top: -37rem;
     }
     
-    section#abordagens {
-    position: absolute;
-    top: 200rem;
-    height: 111vh;
-    width: 100%;
-    max-width: 500px;
-    margin-left: 21px;
-    margin-right: 8px;
-}
+      section#abordagens {
+        position: absolute;
+        top: 200rem;
+        height: 111vh;
+        width: 74%;
+        max-width: 500px;
+    }
 
-.abordagem {
-    text-align: start;
-    display: grid;
-    line-height: 25px;
-    margin-top: 26px;
-    margin-right: 10px;
-}
+    .abordagem {
+        text-align: start;
+        display: grid;
+        line-height: 25px;
+        margin-top: 26px;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: 13px;
+        font-size: 14px;
+        background-color: #053056;
+        color: #fff;
+        font-weight: 600;
+        box-shadow: rgba(0, 0, 0, 0.53) 0px 4px 10px;
+    }
 
-#abordagens > div > img {
-    width: 80%;
-    position: relative;
-    margin-left: 34px;
-    margin-top: 25rem;
-    border-radius: 10px;
-    top: 7rem;
-}
-
-
+   #abordagens > div > img {
+        width: 80%;
+        position: relative;
+        margin-left: 34px;
+        margin-top: 25rem;
+        border-radius: 10px;
+        top: -42rem;
+    }
 
 
 
