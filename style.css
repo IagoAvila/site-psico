@@ -648,10 +648,10 @@ nav ul a {
 
     section#sobre {
         position: absolute;
-        top: 89%;
+        top: 92%;
         height: 64rem;
         display: block;
-        background-color: #dddddda3;
+        background-color: #fff;
         box-shadow: 0 4px 6px -1px rgb(0 0 0);
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
