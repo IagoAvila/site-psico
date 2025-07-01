@@ -653,7 +653,6 @@ nav ul a {
         display: block;
         background-color: #dddddda3;
         box-shadow: 0 4px 6px -1px rgb(0 0 0);
-        /* padding: 1rem; */
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
     }
