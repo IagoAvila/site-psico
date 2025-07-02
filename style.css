@@ -658,9 +658,8 @@ nav ul a {
         border-radius: 0px;
         width: 47%;
     }
-
     section#sobre {
-        top: 83%;
+        margin-top: 6rem;
         height: 64rem;
         display: block;
         background-color: #fff;
@@ -668,7 +667,6 @@ nav ul a {
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
     }
-
 
 #sobre > h2 {
         font-size: 14px;
@@ -799,13 +797,15 @@ nav ul a {
         text-transform: uppercase;
     }
     
-    section#abordagens {
+     section#abordagens {
         top: 200rem;
         height: 111vh;
         width: 74%;
         max-width: 500px;
         margin-top: 20rem;
+        margin-left: 3rem;
     }
+    
 
     .abordagem {
         text-align: start;
