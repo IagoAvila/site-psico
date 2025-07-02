@@ -660,8 +660,9 @@ nav ul a {
     }
 
 
-    section#sobre {
+     section#sobre {
         height: 64rem;
+        margin-top: 4rem;
         display: block;
         background-color: #fff;
         box-shadow: 0 4px 6px -1px rgb(0 0 0);
@@ -676,7 +677,6 @@ nav ul a {
         font-weight: 800;
         white-space: nowrap;
         margin-bottom: 40px;
-        margin-top: 35px;
     }
 
      #sobre > div > img {
