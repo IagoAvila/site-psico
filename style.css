@@ -390,17 +390,19 @@ h3:hover{
   color:#053056;
 }
 
-     #depoimentos {
+    #depoimentos {
         padding: 6rem 13rem;
         background-color: #dddddda3;
         text-align: center;
         position: relative;
-        top: 51rem;
+        margin-top: 60rem;
         box-shadow: 0 0px 12px rgb(0 0 0);
         border-radius: 44px;
         margin-right: 5rem;
         margin-left: 5rem;
     }
+
+    
 
 
     .depoimentos-container {
@@ -660,15 +662,17 @@ nav ul a {
     }
 
 
-     section#sobre {
+ section#sobre {
         height: 64rem;
-        margin-top: 4rem;
+        margin-top: 10rem;
         display: block;
         background-color: #fff;
         box-shadow: 0 4px 6px -1px rgb(0 0 0);
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
     }
+
+
 
 #sobre > h2 {
         font-size: 14px;
