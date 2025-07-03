@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const homeRect = homeSection.getBoundingClientRect();
 
       // Se a Home estiver 90% visível na tela, oculta o botão
-      if (homeRect.top < window.innerHeight * 0.9 && homeRect.bottom > 0) {
+      if (homeRect.top < window.innerHeight * 1.9 && homeRect.bottom > 0) {
         whatsappBtn.classList.add('hidden');
       } else {
         whatsappBtn.classList.remove('hidden');
