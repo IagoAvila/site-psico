@@ -95,7 +95,7 @@ section#Home {
     /*img header*/
 body > header > img {
     position: absolute;
-    width: 6rem;
+    width: 4rem;
     left: 5%;
 }
  #Home > img {
@@ -123,7 +123,7 @@ body > header > img {
         right: 0px;
         background-color: #f8f8f8;
         justify-content: center;
-        height: 106px;
+        height: 70px;
     }
 
 
@@ -225,14 +225,17 @@ nav ul {
 
     }
     
-    section#sobre {
+ section#sobre {
         position: relative;
         height: auto;
         padding: 33px;
         background-color: #f1f1f1a3;
         margin-top: 3rem;
         overflow: hidden;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
+
 
 
        #sobre > h2 {
@@ -346,6 +349,21 @@ h2 {
         width: 53%;
         margin-left: 14rem;
     }
+
+
+
+section#abordagens {
+    position: relative;
+    margin-top: 50rem;
+    padding: 15.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+
+}
+
 #abordagens > div > h2 {
         text-align: center;
         color: #002841;
@@ -359,20 +377,12 @@ h2 {
 }
 
 
-      section#abordagens {
-        position: relative;
-        top: 72rem;
-        height: 111vh;
-        width: 100%;
-        right: 0;
-        max-width: 500px;
-        left: 33%;
-    }
+
 
 .abordagem {
         text-align: start;
-        display: grid;
         line-height: 25px;
+        width: 45%;
         margin-top: 26px;
         margin-right: 10px;
         padding: 40px;
@@ -390,31 +400,6 @@ box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 h3:hover{
     color: #fff
 }
-
-#abordagens > div > div:nth-child(3){
-  top: 0;
-}
-
-#abordagens > div > div:nth-child(2){
-  top: 20px;
-}
-
-#abordagens > div > div:nth-child(1){
-  top: 40px;
-}
-
-    #abordagens > div > img {
-        width: 87%;
-        position: relative;
-        margin-left: 34px;
-        margin-top: 15rem;
-        border-radius: 10px;
-        top: -41rem;
-    }
-
-
-
-
 
 #depoimentos h2 {
   margin-bottom: 2rem;
@@ -682,22 +667,22 @@ nav ul a {
         z-index: 1000;
     }
 /*home-text*/
-    p.slogan {
+ p.slogan {
         font-size: 13px;
-        padding: 7px;
+        padding: 3rem 3rem;
         border-radius: 1px;
         color: #ffffff;
-        text-align: start;
+        text-align: center;
+        line-height: 20px;
         width: 101%;
-        top: 38rem;
+        top: 25rem;
+        left: 0rem;
         position: absolute;
         font-weight: bolder;
         z-index: 1000;
         display: flex;
         justify-content: right;
         align-items: center;
-        background-color: #002841;
-        box-shadow: rgb(0 0 0 / 0%) 0px 4px 10px;
     }
 
   #Home > img {
@@ -727,12 +712,13 @@ nav ul a {
     .home-button {
         position: absolute;
         top: 33rem;
-        left: 25%;
+        left: 26%;
         text-align: center;
         border-radius: 0px;
         width: 47%;
     }
 
+    
 
     section#sobre {
         height: 64rem;
