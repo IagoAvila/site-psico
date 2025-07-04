@@ -29,6 +29,9 @@ section#Home {
   @media screen and (min-width: 784px) {
 
 
+   #abordagens > div > img {
+      display: none;
+    }
 
 
     .whatsapp-float {
@@ -718,11 +721,11 @@ nav ul a {
         width: 47%;
     }
 
-    
+
 
     section#sobre {
         height: 64rem;
-        margin-top: 3rem;
+        margin-top: -2rem;
         display: block;
         background-color: #fff;
         box-shadow: 0 4px 6px -1px rgb(0 0 0);
