@@ -1036,16 +1036,26 @@ footer.footer {
 
     .footer-info {
     color: #000000;
-    margin-bottom: 1rem;
+
 }
 
 .footer-social {
-    background-color: #000;
-    margin-top: 0rem;
-}
+        background-color: #000;
+        margin-top: 0rem;
+        border-top: 10px solid;
+        gap: 1rem;
+        display: flex;
+        margin-left: 0rem;
+        position: absolute;
+        width: 100%;
+    }
 
     body > footer > div.footer-info > img {
         width: 2rem;
         margin-top: 2rem;
     }
+
+    body > footer > div.footer-social > a:nth-child(1) {
+    margin-left: 1rem;
+}
 }
