@@ -480,7 +480,7 @@ section#abordagens {
         text-align: start;
         box-shadow: 0 0px 12px rgb(0 0 0);
     }
-    
+
     body > footer > div.footer-info > h3 {
         color: #000000;
     }
@@ -1044,8 +1044,8 @@ footer.footer {
     margin-top: 0rem;
 }
 
-body > footer > div.footer-info > img {
-    width: 2rem;
-}
-
+    body > footer > div.footer-info > img {
+        width: 2rem;
+        margin-top: 2rem;
+    }
 }
